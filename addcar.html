@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: blueviolet;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+      }
+      form {
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px auto;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px black;
+        width: 50%;
+      }
+      input,
+      select {
+        padding: 10px;
+        margin: 5px;
+        width: 50%;
+      }
+      button {
+        width: 50%;
+        padding: 10px;
+        margin: 5px auto;
+        color: white;
+        background: linear-gradient(45deg, blue, black);
+      }
+      button:hover {
+        background: linear-gradient(45deg, black, blue);
+      }
+      h1 {
+        color: brown;
+        font-family: 'Times New Roman', Times, serif;
+        border-bottom: 3px solid grey;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>Add Car</h1>
+      <p>
+        <input type="text" placeholder="Enter Customer Name" name="name" />
+      </p>
+      <p>
+        <input type="email" placeholder="Enter Email" name="email" />
+      </p>
+      <p>
+        <select name="model">
+          <option value="select model">Select Car Model...</option>
+          <option value="honda">Honda</option>
+          <option value="mercedez">Mercedez</option>
+          <option value="benz">Benz</option>
+          <option value="maruti">Maruti</option>
+        </select>
+      </p>
+      <input type="color" name="color" placeholder="select color" value="" />
+      <button type="submit">Add Car</button>
+    </form>
+  </body>
+</html>
